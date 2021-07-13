@@ -22,31 +22,32 @@ EFI for ASUS X509 with OpenCore bootloader
 
 - [x] Intel Iris Plus iGPU eDP with Backlight Output
 - [ ] Intel Iris Plus iGPU HDMI Output (Not supported at the moment)
-- [ ] Intel Iris Plus iGPU Type-C to HDMI Output (Not supported at the moment?)
+- [ ] Intel Iris Plus iGPU Type-C to HDMI Output (Not supported at the moment)
 - [x] Intel Iris Plus iGPU - H264 & HEVC (todo: test)
 - [x] ALC256 Internal Speakers
 - [x] ALC256 Internal microphone
 - [x] ALC256 Combojack headphones
 - [ ] ALC256 Combojack microphone
 - [ ] ALC256 HDMI Audio Output (Not supported at the moment)
-- [ ] ALC256 TYPE-C to HDMI Audio Output (Not supported at the moment?)
-- [x] All USB-A 3.1 Ports (TYPE-C 3.2 Included)
+- [ ] ALC256 TYPE-C to HDMI Audio Output (Not supported at the moment)
+- [x] All USB-A 3.2 Ports (TYPE-C 3.2 is not tested, mapping update might be needed)
 - [x] SpeedStep / Sleep / Wake
-- [x] HID Key PWRB & SLPB (todo: test)
+- [ ] HID Key PWRB & SLPB (todo: research)
 - [x] I2C Touchpad with gesture
 - [x] Keyboard (PS2-Internal) no backlight
-- [x] F5 & F6 Brightness Key
+- [x] F4 & F5 Brightness Key
 - [ ] F10 Print Screen Key
 - [x] F1 & F2 & F3 Sound Key
-- [x] Wi-Fi and Bluetooth (todo: test bluetooth) Intel 9461 (DW1830) Module
-- [x] SSD NVME Slot-1 PciE Gen3x4
-- [ ] SSD NVME Slot-2 PciE Gen3x4 (is this the one replacing wwan? not tested.)
-- [ ] Micro SD Cardreader (USB-Internal) (todo: teste)
+- [ ] F6 Disable touchpad Key
+- [x] Wi-Fi and Bluetooth (todo: add kext for bluetooth) Intel 9461 Module
+- [x] SSD NVME Slot-1 PciE Gen3x2
+- [ ] 2.5” SATA HDD Slot
+- [ ] Micro SD Cardreader (USB-Internal) (todo: test)
 - [x] WebCam (USB-Internal)
 - [ ] All Sensors CPU, IGPU, BATTERY, NVME, FAN (todo: test)
 - [x] ACPI Battery
-- [x] NVRAM (Native) (todo: native?)
-- [x] Recovery (macOS) boot from OpenCore (todo: test)
+- [x] NVRAM (Native)
+- [x] Recovery (macOS) boot from OpenCore
 - [x] Windows 10 boot from OpenCore
 
 ### Special Config:
