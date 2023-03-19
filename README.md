@@ -9,10 +9,11 @@ EFI for ASUS X509 with OpenCore bootloader
 | iGPU                 | Intel® UHD Graphics for 10th Gen Intel® Processors       |
 | dGPU (disabled)      | Nvidia MX110                                             |
 | Audio                | Realtek ALC256 [(layout-id:66)](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) |
-| Ram                  | 20 GB DDR4 2667 MHz                                      |
+| RAM                  | 20 GB DDR4 2667 MHz                                      |
 | Display (unrelated?) | Monitor: N156HGA-EA3 15.6 FHD (replaced with N156HCE-EN1)|
 | Wifi + Bluetooth     | Intel 9461                                               |
 | NVMe                 | SK Hynix BC501 256 GB (macOS)                            |
+| SATA                 | Samsung SSD 870 EVO 500 GB (Windows)                     |
 | SmBios               | MacBookAir 9,1                                           |
 | BootLoader           | OpenCore 0.9.0                                           |
 | macOS                | Monterey 12.6.3                                          |
@@ -22,16 +23,16 @@ EFI for ASUS X509 with OpenCore bootloader
 - [x] Intel Iris Plus iGPU eDP with Backlight Output
 - [ ] Intel Iris Plus iGPU HDMI Output (Not supported at the moment)
 - [ ] Intel Iris Plus iGPU Type-C to HDMI Output (Not supported at the moment)
-- [x] Intel Iris Plus iGPU - H264 & HEVC (todo: test)
+- [x] Intel Iris Plus iGPU - H264 & HEVC
 - [x] ALC256 Internal Speakers
 - [x] ALC256 Internal microphone
 - [x] ALC256 Combojack headphones
 - [x] ALC256 Combojack microphone
 - [ ] ALC256 HDMI Audio Output (Not supported at the moment)
 - [ ] ALC256 TYPE-C to HDMI Audio Output (Not supported at the moment)
-- [x] All USB-A 3.2 Ports (TYPE-C 3.2 is not tested, mapping update might be needed)
+- [x] All USB-A 3.2 Ports (TYPE-C works too)
 - [x] SpeedStep / Sleep / Wake
-- [ ] HID Key PWRB & SLPB (todo: research)
+- [?] HID Key PWRB & SLPB
 - [x] I2C Touchpad with gesture
 - [x] Keyboard (PS2-Internal) no backlight
 - [x] F4 & F5 Brightness Key
